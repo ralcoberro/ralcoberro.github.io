@@ -1,0 +1,47 @@
+baseURL = "https://ralcoberro.github.io"
+languageCode = "en-us"
+title = "Thinking in Progress — engineering ideas, written out loud"
+theme = "PaperMod"
+paginate = 10
+
+[params]
+  author = "ralcoberro"
+  description = "Programming, robotics and engineering from the trenches"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+
+  [params.homeInfoParams]
+    Title = "Thinking in Progress — engineering ideas, written out loud"
+    Content = "Writing about programming, robotics, and the craft of software engineering."
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+[markup]
+  [markup.highlight]
+    style = "monokai"
+    lineNos = true
+    lineNumbersInTable = false
+  [markup.goldmark.renderer]
+    unsafe = true
