@@ -1,23 +1,9 @@
 /* --- Dot grid background (engineering graph paper feel) --- */
 body {
-    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.10) 1px, transparent 1px);
-    background-size: 28px 28px;
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.18) 1px, transparent 1px) !important;
+    background-size: 28px 28px !important;
 }
 
-.dark body {
-    background-image: radial-gradient(circle, rgba(255, 255, 255, 0.07) 1px, transparent 1px);
-}
-
-/* Keep content areas readable over the pattern */
-.post-content,
-.post-header,
-#content,
-.list-header {
-    position: relative;
-}
-
-/* Subtle accent line under the site title on home */
-.home-info .entry-hint-parent {
-    border-left: 3px solid var(--primary);
-    padding-left: 1rem;
+body.dark {
+    background-image: radial-gradient(circle, rgba(255, 255, 255, 0.12) 1px, transparent 1px) !important;
 }
