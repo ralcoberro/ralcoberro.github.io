@@ -1,7 +1,14 @@
-/* --- Table cell padding --- */
+/* --- Table layout --- */
+.post-content table {
+    table-layout: fixed;
+    width: 100%;
+}
+
 .post-content table td,
 .post-content table th {
     padding: 0.5rem 1.4rem;
+    text-align: left;
+    vertical-align: top;
 }
 
 /* --- Theme toggle label and spacing --- */
