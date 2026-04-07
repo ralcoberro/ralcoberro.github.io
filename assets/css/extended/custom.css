@@ -1,8 +1,8 @@
 /* --- Theme toggle label and spacing --- */
-#theme-toggle::after {
+#theme-toggle::before {
     content: "mode";
     font-size: 0.75rem;
-    margin-left: 4px;
+    margin-right: 4px;
     vertical-align: middle;
     opacity: 0.7;
 }
