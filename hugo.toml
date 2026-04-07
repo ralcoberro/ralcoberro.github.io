@@ -20,6 +20,10 @@ paginate = 10
     Title = "Thinking in Progress — engineering ideas, written out loud"
     Content = "Writing about programming, robotics, and the craft of software engineering."
 
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/ralcoberro"
+
 [taxonomies]
   tag = "tags"
   category = "categories"
