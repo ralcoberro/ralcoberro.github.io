@@ -1,3 +1,9 @@
+/* --- Table cell padding --- */
+.post-content table td,
+.post-content table th {
+    padding: 0.5rem 1.4rem;
+}
+
 /* --- Theme toggle label and spacing --- */
 #theme-toggle::before {
     content: "mode";
